@@ -1,12 +1,12 @@
-@media (max-width: 1000px) {
+@media (max-height: 768px) {
   body{
-    background-image: url("portrait-main.jpg");
+    background-image: url("main-background.jpg");
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-height: 1024px) {
   body{
-    background-image: url("main-background.jpg");
+    background-image: url("portrait-main.jpg");
   }
 }
 

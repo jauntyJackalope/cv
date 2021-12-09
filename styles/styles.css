@@ -1,22 +1,12 @@
-@media (max-height: 768px) {
-  body{
-    background-image: url("main-background.jpg");
-  }
-}
-
-@media (min-height: 1024px) {
-  body{
-    background-image: url("portrait-main.jpg");
-  }
-}
 
 
 body{
+    background-image: url("main-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-     padding: 20px;
+    padding: 20px;
 
 }
 

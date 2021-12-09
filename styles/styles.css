@@ -1,25 +1,24 @@
-@media (min-width: 350) {
+@media (min-width: 350px) {
   body{
     background-image: url("portrait-main.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
-
   }
 }
 
-@media (max-width: 1080) {
+@media (max-width: 1080px) {
   body{
     background-image: url("main-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    padding: 20px;
-
   }
 }
 
 
+body{
+      padding: 20px;
 
+}
 
 
 

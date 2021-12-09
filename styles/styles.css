@@ -86,3 +86,7 @@ h1{
 .card-text{
   color: #73AED9;
 }
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}

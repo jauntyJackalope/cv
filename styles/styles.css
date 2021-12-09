@@ -1,4 +1,4 @@
-@media (max-width: 480) {
+@media (min-width: 350) {
   body{
     background-image: url("portrait-main.jpg");
     background-repeat: no-repeat;

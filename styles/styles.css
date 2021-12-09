@@ -1,3 +1,14 @@
+@media (max-width: 480) {
+  body{
+    background-image: url("portrait-main.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+
+  }
+}
+
 @media (max-width: 1080) {
   body{
     background-image: url("main-background.jpg");
@@ -9,16 +20,7 @@
   }
 }
 
-@media (min-width: 480) {
-  body{
-    background-image: url("portrait-main.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    padding: 20px;
 
-  }
-}
 
 
 

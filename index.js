@@ -1,6 +1,6 @@
 var startMan = false;
 
-//$(document).ready(musicPlay);
+$(document).ready(musicPlay);
 
 
 

@@ -1,9 +1,15 @@
-$(document).ready(function(){
+$(document).ready(playMusic);
 
-  const music1 = new Audio("ikawLang.mp3");
+
+
+document.addEventListener('click', playMusic);
+
+}
+
+function playMusic(){
+    const music1 = new Audio("ikawLang.mp3");
   music1.play();
-
-});
+}
 
 
 

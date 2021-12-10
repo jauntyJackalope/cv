@@ -1,16 +1,24 @@
+var startMan = false;
 
-$(document).ready(playMusic);
+//$(document).ready(musicPlay);
 
 
-function playMusic(){
-   const music1 = new Audio("ikawLang.mp3");
-   music1.play();
 
+document.addEventListener('click', musicPlay);
+
+
+function musicPlay() {
+
+  if(!startMan){
+    var musicStart = new Audio("ikawLang.mp3");
+    musicStart.play();
+    startMan = true;
+    document.removeEventListener('click', musicPlay);
+    }
 }
 
-
-
 $(window).scroll(function() {
+   musicPlay();
     $('.fade-in').each(function() {
         var top_of_element = $(this).offset().top;
         var bottom_of_element = $(this).offset().top + $(this).outerHeight();

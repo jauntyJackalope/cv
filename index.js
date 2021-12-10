@@ -1,3 +1,12 @@
+$(document).ready(function(){
+
+  const music1 = new Audio("ikawLang.mp3");
+  music1.play();
+
+});
+
+
+
 $(window).scroll(function() {
     $('.fade-in').each(function() {
         var top_of_element = $(this).offset().top;

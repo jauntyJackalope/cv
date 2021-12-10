@@ -1,18 +1,11 @@
-var startMusic = false;
 
 $(document).ready(playMusic);
 
 
-
-document.addEventListener('click', playMusic);
-
-
 function playMusic(){
    const music1 = new Audio("ikawLang.mp3");
-   if(!startMusic){ 
-    music1.play();
-    startMusic = true;
-   }
+   music1.play();
+
 }
 
 

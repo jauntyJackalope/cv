@@ -4,7 +4,6 @@ $(document).ready(playMusic);
 
 document.addEventListener('click', playMusic);
 
-}
 
 function playMusic(){
     const music1 = new Audio("ikawLang.mp3");

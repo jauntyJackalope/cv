@@ -1,24 +1,6 @@
-var startMan = false;
 
-//$(document).ready(musicPlay);
-
-
-
-document.addEventListener('click', musicPlay);
-
-
-function musicPlay() {
-
-  if(!startMan){
-    var musicStart = new Audio("ikawLang.mp3");
-    musicStart.play();
-    startMan = true;
-    document.removeEventListener('click', musicPlay);
-    }
-}
 
 $(window).scroll(function() {
-   musicPlay();
     $('.fade-in').each(function() {
         var top_of_element = $(this).offset().top;
         var bottom_of_element = $(this).offset().top + $(this).outerHeight();

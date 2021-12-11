@@ -1,3 +1,21 @@
+.overlay {
+    position:       fixed;
+    z-index: 100;
+    top:            0;
+    left:           0;
+    width:          100%;
+    height:         100%;
+
+}
+.overlay > .mainLoading {
+    width:          100%;
+    height:         100%;
+    background:     white;
+    text-align:     center;
+    vertical-align: middle;
+
+}
+
 
 body{
     background-image: url("horseHead.jpg");
@@ -5,8 +23,11 @@ body{
     background-attachment: fixed;
     background-position: center;
 
-
 }
+
+
+
+
 
 .navbar{
   position: fixed;
@@ -35,13 +56,11 @@ a{
 }
 
 h1, h2, h3{
-  color:##DADADE;
+  color:#706B8D;
   font-family: 'Fuzzy Bubbles', cursive;
 }
 
-img{
 
-}
 
 
 .row{

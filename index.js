@@ -1,25 +1,13 @@
+
+$(".giftGif").click(musicPlay);
+
+
 var startMan = false;
 
-$(document).ready(musicPlay);
-
-
-
-document.addEventListener('click', musicPlay);
-
 function musicPlay() {
+  $(".overlay").fadeOut();
   if(!startMan){
     var musicStart = new Audio("ikawLang.mp3");
-      if (typeof musicStart.loop == 'boolean')
-    {
-    musicStart.loop = true;
-    }
-    else
-    {
-    musicStart.addEventListener('ended', function() {
-        this.currentTime = 0;
-        this.play();
-    }, false);
-    }
     musicStart.play();
     startMan = true;
     document.removeEventListener('click', musicPlay);

@@ -1,3 +1,5 @@
+var starVid = document.getElementById("#myVideo");
+
 
 $(".giftGif").click(musicPlay);
 
@@ -10,6 +12,7 @@ function musicPlay() {
     var musicStart = new Audio("ikawLang.mp3");
     musicStart.play();
     startMan = true;
+    starVid.play();
     document.removeEventListener('click', musicPlay);
     }
 }
